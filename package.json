@@ -1,0 +1,26 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Lista de tarefas",
+  "homepage": "https://github.com/cldavii/todolist#readme",
+  "bugs": {
+    "url": "https://github.com/cldavii/todolist/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cldavii/todolist.git"
+  },
+  "license": "ISC",
+  "author": "Davi Felipe Silva Clemente",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.0"
+  }
+}
